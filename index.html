@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Reiklitos projektai | DRUTEX langai, durys ir terasų sistemos</title>
+
+  <meta name="description"
+        content="Reiklitos projektai – DRUTEX langai, durys ir terasų sistemos Lietuvoje. PVC, aliuminio ir mediniai langai bei modernios terasų sistemos.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1d1d1d;
+      background: #ffffff;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 20px 7%;
+    }
+
+    nav {
+      max-width: 1400px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .menu {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+    }
+
+    .menu a {
+      color: #222;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 7%;
+      background: #f4f5f6;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 6vw, 76px);
+      line-height: 1.05;
+      margin: 0 0 25px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      font-size: 21px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 28px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .products {
+      max-width: 1400px;
+      margin: auto;
+      padding: 80px 7%;
+    }
+
+    .products h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      background: #f5f5f5;
+      padding: 40px 30px;
+      min-height: 220px;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 45px 7%;
+      background: #111;
+      color: #fff;
+    }
+
+    @media (max-width: 800px) {
+      .menu {
+        display: none;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: 60vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">REIKLITOS PROJEKTAI</div>
+
+    <div class="menu">
+      <a href="#">Langai</a>
+      <a href="#">Terasų sistemos</a>
+      <a href="#">Durys</a>
+      <a href="#">Apie mus</a>
+      <a href="#">Kontaktai</a>
+      <a href="#">LT | EN</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-content">
+
+      <h1>Langai, durys ir terasų sistemos</h1>
+
+      <p>
+        Modernūs sprendimai namams ir verslui.
+        PVC, aliuminio ir mediniai langai bei pažangios
+        terasų sistemos iš DRUTEX.
+      </p>
+
+      <a class="button" href="#produktai">
+        Peržiūrėti produktus
+      </a>
+
+    </div>
+  </section>
+
+  <section class="products" id="produktai">
+
+    <h2>Produktai</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>PVC langai</h3>
+        <p>
+          Energiškai efektyvios IGLO langų sistemos
+          gyvenamiesiems ir komerciniams projektams.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Aliuminio langai</h3>
+        <p>
+          Modernios aliuminio sistemos didelėms
+          konstrukcijoms ir šiuolaikinei architektūrai.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Mediniai langai</h3>
+        <p>
+          Natūralaus medžio langai, derinantys
+          estetiką, ilgaamžiškumą ir šilumos izoliaciją.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>HS terasų sistemos</h3>
+        <p>
+          Didelio formato pakeliamos ir nustumiamos
+          terasų konstrukcijos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Stumdomos sistemos</h3>
+        <p>
+          Šiuolaikiniai sprendimai didelėms stiklo
+          plokštumoms ir patogiam išėjimui į terasą.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Durys</h3>
+        <p>
+          Lauko ir terasų durų sprendimai,
+          pritaikomi skirtingiems pastatams.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Reiklitos projektai
+</footer>
+
+</body>
+</html>
